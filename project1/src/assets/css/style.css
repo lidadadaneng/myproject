@@ -1,0 +1,27 @@
+.tab a{
+  display: block;
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  background-color: cornflowerblue;
+  text-decoration: none;
+  color: #ffffff;
+  width: 20%;
+}
+.tab .router-link-active{
+  color:#333333;
+  font-size: 15px;
+  text-decoration: none;
+  background: #ffffff;
+  /* 红配绿 */
+}
+/* 动画 */
+.v-enter,
+.v-leave-to{
+  opacity: 0;
+  transform: translateX(100px);
+}
+.v-enter-active,
+.v-leave-active{
+  transition: all .5s ease;
+}
